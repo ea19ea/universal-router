@@ -8,7 +8,7 @@ contract DeploySuperseed is DeployUniversalRouter {
   function setUp() public override {
     params = RouterParameters({
       permit2: 0x720D15aB16B1443016Fd267d00cCF87b9Becf1aC,
-      weth9: 0xe05FeCA8B752051B207f071D876B442cACC9bd2c,
+      weth9: 0xC1996D3A457f3AC66Aaa370c74399586A6aED910,
       seaport: UNSUPPORTED_PROTOCOL,
       seaportV1_4: UNSUPPORTED_PROTOCOL,
       openseaConduit: UNSUPPORTED_PROTOCOL,
