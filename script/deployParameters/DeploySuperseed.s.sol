@@ -7,7 +7,7 @@ import {RouterParameters} from 'contracts/base/RouterImmutables.sol';
 contract DeploySuperseed is DeployUniversalRouter {
   function setUp() public override {
     params = RouterParameters({
-      permit2: 0x720D15aB16B1443016Fd267d00cCF87b9Becf1aC,
+      permit2: 0xB40E5a6f7b5F171bC9B1a047ad19b558642F7b6e,
       weth9: 0xC1996D3A457f3AC66Aaa370c74399586A6aED910,
       seaport: UNSUPPORTED_PROTOCOL,
       seaportV1_4: UNSUPPORTED_PROTOCOL,
